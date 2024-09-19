@@ -14,15 +14,34 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.952924084" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.config.gnu.exe.debug.952924084" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.952924084." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.753624411" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.debug.162840764" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.162840764" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Mp3MetaData}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1845115386" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.783899295" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1521886341" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
 								<option id="gnu.cpp.compiler.exe.debug.option.optimization.level.1380601771" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.exe.debug.option.debugging.level.1144927992" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="gnu.cpp.compiler.option.include.files.673126760" name="Include files (-include)" superClass="gnu.cpp.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1922627673" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/toolkit"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/mpeg"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/mpeg/id3v2"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/mpeg/id3v2/frames"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/mpeg/id3v1"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/xm"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/wavpack"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/trueaudio"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/s3m"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/it"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/flac"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/dsf"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/dsdiff"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/asf"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/ape"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2022270295" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1988690867" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
@@ -39,6 +58,7 @@
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.debug.2013677172" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug">
 								<option defaultValue="gnu.asm.debugging.level.default" id="gnu.asm.option.debugging.level.3925488" name="Debug Level" superClass="gnu.asm.option.debugging.level" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="gnu.both.asm.option.include.paths.1983500005" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath"/>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.27515609" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
@@ -63,20 +83,39 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.release.752499724" name="Release" parent="cdt.managedbuild.config.gnu.exe.release">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.config.gnu.exe.release.752499724" name="Release" parent="cdt.managedbuild.config.gnu.exe.release">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.752499724." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.83901148" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.release.328956430" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
 							<builder buildPath="${workspace_loc:/Mp3MetaData}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.1258620589" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1278039416" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.395840254" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
-								<option id="gnu.cpp.compiler.exe.release.option.optimization.level.691648928" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
-								<option defaultValue="gnu.cpp.compiler.debugging.level.none" id="gnu.cpp.compiler.exe.release.option.debugging.level.564274660" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.exe.release.option.optimization.level.691648928" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.none" id="gnu.cpp.compiler.exe.release.option.debugging.level.564274660" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.737663045" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/filip/Downloads/taglib-2.0.2/taglib"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/toolkit"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/mpeg"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/mpeg/id3v2"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/mpeg/id3v2/frames"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/mpeg/id3v1"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/xm"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/wavpack"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/trueaudio"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/s3m"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/it"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/flac"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/dsf"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/dsdiff"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/asf"/>
+									<listOptionValue builtIn="false" value="/home/filip/Documents/Mp3MetaData/Includes/taglib-2.0.2/taglib/ape"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1602258503" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.257119054" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
-								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.860868709" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.exe.release.option.debugging.level.1464928813" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.860868709" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.none" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.exe.release.option.debugging.level.1464928813" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.319166233" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.191127643" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release"/>
@@ -87,7 +126,8 @@
 								</inputType>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.release.687703732" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release">
-								<option defaultValue="gnu.asm.debugging.level.none" id="gnu.asm.option.debugging.level.1127163077" name="Debug Level" superClass="gnu.asm.option.debugging.level" valueType="enumerated"/>
+								<option defaultValue="gnu.asm.debugging.level.none" id="gnu.asm.option.debugging.level.1127163077" name="Debug Level" superClass="gnu.asm.option.debugging.level" value="gnu.asm.debugging.level.default" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="gnu.both.asm.option.include.paths.362858376" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath"/>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.494542854" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
@@ -119,4 +159,24 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/Mp3MetaData"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/Mp3MetaData"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="taglib" path="Includes/taglib-2.0.2" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>taglib</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
 </cproject>
